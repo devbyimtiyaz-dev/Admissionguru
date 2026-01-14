@@ -1,0 +1,835 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Admission Guru | Get Admission in Top Colleges Across India</title>
+    <meta
+      name="description"
+      content="Admission Guru helps students get admission in top colleges across India. Select your city and apply now."
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- Website Icon / Favicon -->
+    <link rel="icon" type="image/png" href="./images/favicon.png" />
+  </head>
+
+  <body>
+    <!-- ===== TOP BAR ===== -->
+    <div class="top-bar">
+      <div class="top-bar-inner">
+        <div>
+          📞 +91-9481855555 / 9234566666 | ✉ admissionguru.india@gmail.com
+        </div>
+        <div>📍 Jama Masjid, Delhi – 110006</div>
+      </div>
+    </div>
+
+    <!-- ===== NAVBAR ===== -->
+    <header class="navbar">
+      <div class="nav-wrapper">
+        <!-- LEFT : LOGO -->
+        <a href="../index.html" class="logo-wrap">
+          <img src="./images/logo.png" class="logo" alt="Admission Guru" />
+        </a>
+
+        <!-- CENTER : NAV MENU -->
+        <nav class="nav-menu" id="navMenu">
+          <a href="../index.html" class="active">Home</a>
+          <a href="../index.html#about">About Us</a>
+          <a href="../index.html#services">Services</a>
+          <a href="./colleges.html">Colleges</a>
+
+          <!-- DROPDOWN -->
+          <div class="dropdown" id="collegeDropdown">
+            <button class="dropdown-btn" type="button">
+              City <span class="dropdown-arrow">▾</span>
+            </button>
+
+            <div class="dropdown-menu">
+              <a href="../cities/delhi.html">Delhi</a>
+              <a href="../cities/pune.html">Pune</a>
+              <a href="../cities/noida.html">Noida</a>
+              <a href="../cities/mumbai.html">Mumbai</a>
+              <a href="../cities/bangalore.html">Bangalore</a>
+            </div>
+          </div>
+
+          <a href="../index.html#contact">Contact Us</a>
+        </nav>
+
+        <!-- RIGHT : CTA -->
+        <a href="../index.html#inquiry" class="btn-cta">Enquiry Now</a>
+
+        <!-- HAMBURGER -->
+        <div class="hamburger" id="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </header>
+
+<!-- ================= HERO ================= -->
+<section class="hero-section" id="home">
+  <div class="hero-container">
+
+    <!-- LEFT CONTENT -->
+    <div class="hero-content">
+      <span class="hero-eyebrow">Trusted Admission Consultants</span>
+
+      <h1>
+        No.1 Admission Consultants<br />
+        <span>in India</span>
+      </h1>
+
+      <p class="hero-subtext">
+        Trusted by thousands of students for Medical, Engineering &
+        Management admissions across top colleges in India.
+      </p>
+
+      <!-- COURSES -->
+      <div class="course-tags">
+        <span>MBBS</span>
+        <span>B.Tech</span>
+        <span>BDS</span>
+        <span>MBA</span>
+        <span>BBA</span>
+        <span>B.Com</span>
+        <span>BBA LLB</span>
+      </div>
+
+      <!-- ADMISSION STATUS -->
+      <div class="admission-open">
+        <span class="admission">Admissions</span>
+        <span class="open">Open 2026</span>
+      </div>
+
+      <!-- TRUST BADGES -->
+      <div class="badges">
+        <div class="badge">
+          <small>ISO 9001</small>
+          <strong>Certified</strong>
+        </div>
+        <div class="badge">
+          <small>20+ Years</small>
+          <strong>Experience</strong>
+        </div>
+        <div class="badge">
+          <small>10,000+</small>
+          <strong>Students Guided</strong>
+        </div>
+      </div>
+    </div>
+
+    <!-- RIGHT FORM -->
+    <div class="hero-form">
+      <h3>Get Free Counseling</h3>
+      <p>Talk to our expert admission advisors today</p>
+
+      <form action="./send-inquiry.php" method="POST">
+        <input type="hidden" name="source" value="Hero Form" />
+
+        <div class="form-group">
+          <input type="text" name="name" placeholder="Full Name" required />
+        </div>
+
+        <div class="form-group">
+          <input type="tel" name="phone" placeholder="Mobile Number" required />
+        </div>
+
+        <div class="form-group">
+          <input type="email" name="email" placeholder="Email Address" />
+        </div>
+
+        <div class="form-group">
+          <select name="course" required>
+            <option value="">Select Course</option>
+            <option>MBBS</option>
+            <option>BDS</option>
+            <option>B.Tech</option>
+            <option>MBA</option>
+            <option>BBA</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <select name="city" required>
+            <option value="">Preferred City</option>
+            <option>Bangalore</option>
+            <option>Delhi</option>
+            <option>Pune</option>
+            <option>Mumbai</option>
+          </select>
+        </div>
+
+        <button type="submit">Get Free Consultation</button>
+      </form>
+    </div>
+
+  </div>
+</section>
+
+    <!-- ================= Trusted SECTION ================= -->
+    <section class="trusted-section">
+      <div class="trusted-container">
+        <h2 class="trusted-title">
+          Trusted by <span>Top Universities & Colleges</span>
+        </h2>
+
+        <p class="trusted-subtitle">
+          We work with India’s most reputed institutions to ensure genuine
+          admissions
+        </p>
+
+        <!-- LOGO SLIDER -->
+        <div class="logo-slider">
+          <div class="logo-track">
+            <!-- LOGOS (SET 1) -->
+            <div class="logo-card">
+              <img src="./images/brand/brand_1.png" alt="College Logo" />
+            </div>
+            <div class="logo-card">
+              <img src="./images/brand/brand_2.png" alt="College Logo" />
+            </div>
+            <div class="logo-card">
+              <img src="./images/brand/brand_3.png" alt="College Logo" />
+            </div>
+            <div class="logo-card">
+              <img src="./images/brand/brand_4.png" alt="College Logo" />
+            </div>
+            <div class="logo-card">
+              <img src="./images/brand/brand_5.png" alt="College Logo" />
+            </div>
+            <div class="logo-card">
+              <img src="./images/brand/brand_6.png" alt="College Logo" />
+            </div>
+            <div class="logo-card">
+              <img src="./images/brand/brand_7.png" alt="College Logo" />
+            </div>
+            <div class="logo-card">
+              <img src="./images/brand/brand_8.png" alt="College Logo" />
+            </div>
+            <div class="logo-card">
+              <img src="./images/brand/brand_9.png" alt="College Logo" />
+            </div>
+
+            <!-- LOGOS (SET 2 – DUPLICATE FOR LOOP) -->
+            <div class="logo-card">
+              <img src="./images/brand/brand_1.png" alt="College Logo" />
+            </div>
+            <div class="logo-card">
+              <img src="./images/brand/brand_2.png" alt="College Logo" />
+            </div>
+            <div class="logo-card">
+              <img src="./images/brand/brand_3.png" alt="College Logo" />
+            </div>
+            <div class="logo-card">
+              <img src="./images/brand/brand_4.png" alt="College Logo" />
+            </div>
+            <div class="logo-card">
+              <img src="./images/brand/brand_5.png" alt="College Logo" />
+            </div>
+            <div class="logo-card">
+              <img src="./images/brand/brand_6.png" alt="College Logo" />
+            </div>
+            <div class="logo-card">
+              <img src="./images/brand/brand_7.png" alt="College Logo" />
+            </div>
+            <div class="logo-card">
+              <img src="./images/brand/brand_8.png" alt="College Logo" />
+            </div>
+            <div class="logo-card">
+              <img src="./images/brand/brand_9.png" alt="College Logo" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== ABOUT SECTION ===== -->
+    <section class="about-section" id="about">
+      <!-- BG PATTERNS -->
+      <span class="pattern pattern-dots"></span>
+      <span class="pattern pattern-glow"></span>
+
+      <div class="about-container">
+        <!-- LEFT IMAGES -->
+        <div class="about-images">
+          <div class="main-image">
+            <img src="./images/about_2.png" alt="Student" />
+          </div>
+
+          <div class="small-image">
+            <img src="./images/about_3.png" alt="Students Group" />
+          </div>
+
+          <div class="experience-badge">
+            <h3>17+</h3>
+            <p>Years Experience<br />Just Achieved</p>
+          </div>
+        </div>
+
+        <!-- RIGHT CONTENT -->
+        <div class="about-content">
+          <span class="about-label">About Us</span>
+
+          <h2>We Provide Top College Admission</h2>
+
+          <p class="about-text">
+            With the increasing number of educational institutes, courses, and
+            specializations available, choosing the right school and career path
+            has become a challenging and time-consuming task.
+          </p>
+
+          <ul class="about-list">
+            <li>Get Admission in India's Top Colleges</li>
+            <li>Top College Admission Consultancy</li>
+            <li>Search Best College for You</li>
+            <li>Direct Admission Support</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= STATS SECTION ================= -->
+    <section class="stats-modern">
+      <div class="stats-wrap">
+        <div class="stat-box">
+          <div class="stat-icon">
+            <i class="bi bi-trophy"></i>
+          </div>
+          <h3 class="counter" data-target="10">0</h3>
+          <p>Total Achievement</p>
+        </div>
+
+        <div class="stat-box">
+          <div class="stat-icon">
+            <i class="bi bi-people-fill"></i>
+          </div>
+          <h3 class="counter" data-target="292">0</h3>
+          <p>Total Students</p>
+        </div>
+
+        <div class="stat-box">
+          <div class="stat-icon">
+            <i class="bi bi-person-badge-fill"></i>
+          </div>
+          <h3 class="counter" data-target="2000">0</h3>
+          <p>Total Instructor</p>
+        </div>
+
+        <div class="stat-box">
+          <div class="stat-icon">
+            <i class="bi bi-building"></i>
+          </div>
+          <h3 class="counter" data-target="59">0</h3>
+          <p>Total Colleges</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- course-section -->
+    <section class="course-section">
+      <div class="course-container">
+        <!-- HEADER -->
+        <div class="course-header">
+          <div>
+            <span class="course-badge">Course List</span>
+            <h2>Our Top <span>Course List</span></h2>
+          </div>
+
+         
+        </div>
+
+        <!-- COURSE GRID -->
+        <div class="course-grid">
+          <div class="course-card">
+            <div class="course-icon">👷‍♂️</div>
+            <h4>Engineering</h4>
+          </div>
+
+          <div class="course-card">
+            <div class="course-icon">⚕️</div>
+            <h4>Medical</h4>
+          </div>
+
+          <div class="course-card">
+            <div class="course-icon">🦷</div>
+            <h4>Dental</h4>
+          </div>
+
+          <div class="course-card">
+            <div class="course-icon">📊</div>
+            <h4>MBA</h4>
+          </div>
+
+          <div class="course-card">
+            <div class="course-icon">📈</div>
+            <h4>BBA</h4>
+          </div>
+
+          <div class="course-card">
+            <div class="course-icon">💻</div>
+            <h4>BCA</h4>
+          </div>
+
+          <div class="course-card">
+            <div class="course-icon">⚖️</div>
+            <h4>BALLB</h4>
+          </div>
+
+          <div class="course-card">
+            <div class="course-icon">🧑‍💻</div>
+            <h4>M.Tech</h4>
+          </div>
+
+          <div class="course-card">
+            <div class="course-icon">🖥️</div>
+            <h4>MCA</h4>
+          </div>
+
+          <div class="course-card">
+            <div class="course-icon">💊</div>
+            <h4>B.Pharm</h4>
+          </div>
+
+          <div class="course-card">
+            <div class="course-icon">💉</div>
+            <h4>Pharm.D</h4>
+          </div>
+
+          <div class="course-card">
+            <div class="course-icon">🩺</div>
+            <h4>Nursing</h4>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- colleges-by-city -->
+    <section class="city-colleges" id="services">
+      <div class="city-container">
+        <!-- HEADER -->
+        <div class="city-header">
+          <div>
+            <span class="city-badge">Best College</span>
+            <h2>Our Colleges Across <br />India’s Leading Cities</h2>
+          </div>
+
+          <a href="./colleges.html" class="city-btn"> View All Colleges → </a>
+        </div>
+
+        <!-- GRID -->
+        <div class="city-grid">
+          <!-- CARD -->
+          <div class="city-card">
+            <div class="city-image">
+              <img src="./images/colleges/colleges1.jpg" alt="Delhi Colleges" />
+              <span class="city-tag delhi">Delhi</span>
+            </div>
+            <div class="city-content">
+              <h4>Top Colleges In Delhi</h4>
+              <a href="./cities/delhi.html" class="view-link">View All</a>
+            </div>
+          </div>
+
+          <div class="city-card">
+            <div class="city-image">
+              <img
+                src="./images/colleges/colleges2.jpg"
+                alt="Bangalore Colleges"
+              />
+              <span class="city-tag bangalore">Bangalore</span>
+            </div>
+            <div class="city-content">
+              <h4>Top Colleges In Bangalore</h4>
+              <a href="./cities/bangalore.html" class="view-link">View All</a>
+            </div>
+          </div>
+
+          <div class="city-card">
+            <div class="city-image">
+              <img src="./images/colleges/colleges3.jpg" alt="Noida Colleges" />
+              <span class="city-tag noida">Noida</span>
+            </div>
+            <div class="city-content">
+              <h4>Top Colleges In Noida</h4>
+              <a href="./cities/noida.html" class="view-link">View All</a>
+            </div>
+          </div>
+
+          <div class="city-card">
+            <div class="city-image">
+              <img src="./images/colleges/colleges4.jpg" alt="Pune Colleges" />
+              <span class="city-tag pune">Pune</span>
+            </div>
+            <div class="city-content">
+              <h4>Top Colleges In Pune</h4>
+              <a href="./cities/pune.html" class="view-link">View All</a>
+            </div>
+          </div>
+
+          <div class="city-card">
+            <div class="city-image">
+              <img
+                src="./images/colleges/colleges5.jpg"
+                alt="Mumbai Colleges"
+              />
+              <span class="city-tag mumbai">Mumbai</span>
+            </div>
+            <div class="city-content">
+              <h4>Top Colleges In Mumbai</h4>
+              <a href="./cities/mumbai.html" class="view-link">View All</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- enroll-section -->
+    <section class="enroll-section" id="contact">
+      <div class="enroll-container">
+        <!-- LEFT CONTENT -->
+        <div class="enroll-content">
+          <span class="enroll-badge">Course List</span>
+
+          <h2>
+            Enroll Today for a <br />
+            <span>Brighter Tomorrow</span>
+          </h2>
+
+          <p>
+            Start your journey to success by securing your place in top courses
+            and colleges. Fill out the form and take the first step toward your
+            dream career!
+          </p>
+        </div>
+
+        <!-- RIGHT FORM -->
+        <div class="enroll-form">
+          <h3>Fill Your Registration</h3>
+
+          <form action="./send-inquiry.php" method="POST">
+            <input type="hidden" name="source" value="Enroll Section" />
+
+            <input type="text" name="name" placeholder="Your Name" required />
+
+            <div class="form-row">
+              <input type="email" name="email" placeholder="Email Address" />
+              <input type="tel" name="phone" placeholder="Phone" required />
+            </div>
+
+            <div class="form-row">
+              <select name="course" required>
+                <option value="">Select Course</option>
+                <option>MBBS</option>
+                <option>B.Tech</option>
+                <option>MBA</option>
+                <option>BBA</option>
+              </select>
+
+              <select name="college" required>
+                <option value="">Select College</option>
+                <option>Delhi</option>
+                <option>Bangalore</option>
+                <option>Pune</option>
+                <option>Mumbai</option>
+              </select>
+            </div>
+
+            <button type="submit">Enquiry Now →</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- testimonial-section -->
+    <section class="testimonial-section">
+      <div class="testimonial-container">
+        <!-- LEFT CONTENT -->
+        <div class="testimonial-intro">
+          <span class="section-badge">Testimonial</span>
+
+          <h2>What Our Students <br />Say About Us</h2>
+
+          <p>
+            Our students love sharing their success stories, highlighting the
+            transformative learning experience, expert guidance, and the
+            supportive community that drives them to excel.
+          </p>
+
+          <a href="#" class="testimonial-btn"> Explore More → </a>
+        </div>
+
+        <!-- TESTIMONIALS -->
+        <div class="testimonial-cards">
+          <!-- CARD -->
+          <div class="testimonial-card">
+            <div class="quote-icon">“</div>
+
+            <p>
+              One of the most outstanding consultancies of all time. I had an
+              extraordinary involvement with them and the staff here is
+              extremely strong. I was at that point late with my applications
+              yet at the same time figured out how to put myself through with
+              their assistance.
+            </p>
+
+            <div class="testimonial-user">
+              <div class="avatar"></div>
+              <div>
+                <h5>Rakesh Sharma</h5>
+                <span>B.C.A</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- CARD -->
+          <div class="testimonial-card">
+            <div class="quote-icon">“</div>
+
+            <p>
+              I was looking for top designing schools yet because of school
+              rules, I dealt with numerous issues getting affirmation. Indeed,
+              even it’s become past the point of no return. Here Admission Live
+              helped me get confirmation. I am grateful to a very old buddy who
+              suggested this consultancy.
+            </p>
+
+            <div class="testimonial-user">
+              <div class="avatar"></div>
+              <div>
+                <h5>Pooja Sinha</h5>
+                <span>M.Tech</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- faq-section -->
+    <section class="faq-section" id="faq">
+      <div class="faq-container">
+        <!-- LEFT IMAGE -->
+        <div class="faq-image">
+          <img src="./images/tution.jpg" alt="FAQ" />
+        </div>
+
+        <!-- RIGHT CONTENT -->
+        <div class="faq-content">
+          <span class="faq-badge">FAQ</span>
+          <h2>Frequently Asked Questions</h2>
+
+          <div class="faq-accordion">
+            <!-- ITEM -->
+            <div class="faq-item active">
+              <button class="faq-question">
+                Admission through management quota affects placement.
+                <span class="icon">+</span>
+              </button>
+              <div class="faq-answer">
+                <p>
+                  Admission through management quota does not affect placement.
+                  Placement depends on a student's performance, skills, and
+                  academic results rather than the mode of admission.
+                </p>
+              </div>
+            </div>
+
+            <div class="faq-item">
+              <button class="faq-question">
+                Admission under management quota to professional courses is
+                illegal.
+                <span class="icon">+</span>
+              </button>
+              <div class="faq-answer">
+                <p>
+                  Management quota admissions are legal when done under
+                  government-approved norms and institutional guidelines.
+                </p>
+              </div>
+            </div>
+
+            <div class="faq-item">
+              <button class="faq-question">
+                Is it mandatory to go through an education consultant?
+                <span class="icon">+</span>
+              </button>
+              <div class="faq-answer">
+                <p>
+                  No, it is not mandatory. However, consultants help simplify
+                  the admission process and avoid common mistakes.
+                </p>
+              </div>
+            </div>
+
+            <div class="faq-item">
+              <button class="faq-question">
+                Do I need to be from an education background?
+                <span class="icon">+</span>
+              </button>
+              <div class="faq-answer">
+                <p>
+                  No specific background is required. Eligibility depends on the
+                  chosen course and university requirements.
+                </p>
+              </div>
+            </div>
+
+            <div class="faq-item">
+              <button class="faq-question">
+                I'm ready to go! What do I do next?
+                <span class="icon">+</span>
+              </button>
+              <div class="faq-answer">
+                <p>
+                  Contact our counselors, submit your details, and we will guide
+                  you through the complete admission process.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="footer-section">
+      <div class="footer-container">
+        <!-- ABOUT -->
+        <div class="footer-col">
+          <h4>About Us</h4>
+          <p>
+            Admission Guru is an online education consultancy platform helping
+            students secure admissions in top colleges across India. We provide
+            trusted guidance and transparent processes.
+          </p>
+
+          <div class="opening-hours">
+            <div class="icon">⏰</div>
+            <div>
+              <strong>Opening Hours</strong>
+              <span>Mon - Sat (8:00 - 6:00)</span>
+              <span>Sunday - Closed</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- USEFUL LINKS -->
+        <div class="footer-col">
+          <h4>Useful Links</h4>
+          <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#service">Services</a></li>
+            <li><a href="./colleges.html">Colleges</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <!-- COLLEGES -->
+        <div class="footer-col">
+          <h4>Colleges</h4>
+          <ul>
+            <li><a href="./cities/delhi.html">Delhi</a></li>
+            <li><a href="./cities/bangalore.html">Bangalore</a></li>
+            <li><a href="./cities/noida.html">Noida</a></li>
+            <li><a href="./cities/pune.html">Pune</a></li>
+            <li><a href="./cities/mumbai.html">Mumbai</a></li>
+          </ul>
+        </div>
+
+        <!-- RECENT POSTS -->
+        <div class="footer-col">
+          <h4>Recent Post</h4>
+
+          <div class="post">
+            <img src="./images/footer__1.png" alt="" />
+            <div>
+              <small>02 Jan 2025</small>
+              <a href="#">Best Your Business</a>
+            </div>
+          </div>
+
+          <div class="post">
+            <img src="./images/footer__2.png" alt="" />
+            <div>
+              <small>09 Jan 2025</small>
+              <a href="#">Keep Your Business</a>
+            </div>
+          </div>
+
+          <div class="post">
+            <img src="./images/footer__3.png" alt="" />
+            <div>
+              <small>21 Jan 2025</small>
+              <a href="#">Nice Your Business</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- BOTTOM BAR -->
+      <div class="footer-bottom">
+        <div class="footer-bottom-container">
+          <p>
+            Copyright © 2025 <strong>Admission Guru</strong>. All Rights
+            Reserved. <br />
+            <span class="footer-credit">
+              Proudly ♥️ Made in India | Managed by
+              <a
+                href="https://adholicprashant.com/"
+                target="_blank"
+                rel="noopener"
+              >
+                Adholic Prashant
+              </a>
+            </span>
+          </p>
+
+          <div class="social-icons">
+            <a href="#">f</a>
+            <a href="#">t</a>
+            <a href="#">v</a>
+            <a href="#">in</a>
+            <a href="#">s</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- BACK TO TOP -->
+      <a href="#" class="back-to-top">↑</a>
+    </footer>
+
+    <!-- Scroll To Top Button -->
+    <button id="scrollTopBtn" aria-label="Scroll to top">↑</button>
+<!-- CALL & WHATSAPP FLOAT BUTTONS -->
+<a href="tel:+919481855555" class="float-btn call-btn" aria-label="Call Now">
+  <i class="bi bi-telephone-fill"></i>
+</a>
+
+<a href="https://wa.me/919234566666" target="_blank" class="float-btn whatsapp-btn" aria-label="WhatsApp Chat">
+  <i class="bi bi-whatsapp"></i>
+</a>
+
+
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Custom JS -->
+    <script src="./js/main.js"></script>
+  </body>
+</html>

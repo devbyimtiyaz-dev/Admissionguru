@@ -1,0 +1,481 @@
+/* USE SAME CSS AS bangalore.css */
+/* OPTIONAL: change hero image only */
+.city-hero {
+  position: relative;
+  height: 420px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background:
+    linear-gradient(
+      135deg,
+       rgba(20, 18, 16, 0.75),
+      rgba(20, 18, 16, 0.85)
+    ),
+    url("../images/header-img.png") center/cover no-repeat;
+  color: #ffffff;
+}
+
+
+/* Overlay (optional extra depth) */
+.city-hero .hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(
+    circle at top left,
+    rgba(255,255,255,0.15),
+    transparent 40%
+  );
+}
+
+/* CONTENT */
+.city-hero .hero-content {
+  position: relative;
+  z-index: 2;
+  max-width: 800px;
+}
+
+.city-hero h1 {
+  font-size: 42px;
+  font-weight: 800;
+  margin-bottom: 12px;
+}
+
+.city-hero p {
+  font-size: 16px;
+  opacity: 0.95;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .city-hero {
+    height: 320px;
+  }
+
+  .city-hero h1 {
+    font-size: 30px;
+  }
+
+  .city-hero p {
+    font-size: 14px;
+  }
+}
+/* ================= CITY INTRO ================= */
+.city-intro-section {
+  padding: 80px 0;
+  background:
+    radial-gradient(circle at top left, #f3ecff, transparent 40%),
+    radial-gradient(circle at bottom right, #ffe9f2, transparent 40%),
+    #ffffff;
+}
+
+.city-intro-badge {
+  display: inline-block;
+  background: #efe6ff;
+  color: #5a2dff;
+  padding: 6px 16px;
+  border-radius: 30px;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.city-intro-title {
+  font-size: 36px;
+  font-weight: 800;
+  margin-bottom: 18px;
+  line-height: 1.2;
+}
+
+.city-intro-text {
+  font-size: 15.5px;
+  color: #555;
+  line-height: 1.8;
+  margin-bottom: 15px;
+}
+
+/* POINTS */
+.city-intro-points {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.city-intro-points span {
+  background: #f5f3ff;
+  color: #333;
+  padding: 8px 14px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+/* CARD */
+.city-intro-card {
+  background: #ffffff;
+  border-radius: 18px;
+  padding: 30px;
+  box-shadow: 0 25px 60px rgba(0,0,0,0.1);
+}
+
+.city-intro-card h4 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.city-intro-card ul {
+  list-style: none;
+  padding: 0;
+}
+
+.city-intro-card ul li {
+  padding: 10px 0;
+  border-bottom: 1px dashed #ddd;
+  font-size: 14px;
+}
+
+.city-intro-card ul li strong {
+  color: #5a2dff;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .city-intro-title {
+    font-size: 28px;
+  }
+
+  .city-intro-card {
+    margin-top: 30px;
+  }
+}
+/* ================= WHY CHOOSE ================= */
+.why-choose-section {
+  padding: 90px 0;
+  background:
+    radial-gradient(circle at top left, #f3ecff, transparent 40%),
+    radial-gradient(circle at bottom right, #ffe9f2, transparent 40%),
+    #f8f9ff;
+}
+
+/* SECTION HEADER */
+.section-badge {
+  display: inline-block;
+  background: #efe6ff;
+  color: #5a2dff;
+  padding: 6px 18px;
+  border-radius: 30px;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.section-title {
+  font-size: 36px;
+  font-weight: 800;
+}
+
+/* CARD */
+.why-card {
+  background: #ffffff;
+  border-radius: 20px;
+  padding: 35px 28px;
+  height: 100%;
+  box-shadow: 0 25px 60px rgba(0,0,0,0.08);
+  transition: all 0.4s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.why-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    135deg,
+    rgba(90,45,255,0.08),
+    transparent
+  );
+  opacity: 0;
+  transition: 0.4s;
+}
+
+.why-card:hover {
+  transform: translateY(-12px);
+  box-shadow: 0 35px 80px rgba(0,0,0,0.12);
+}
+
+.why-card:hover::before {
+  opacity: 1;
+}
+
+/* ICON */
+.why-icon {
+  width: 60px;
+  height: 60px;
+  background: linear-gradient(135deg, #5a2dff, #7f53ff);
+  color: #fff;
+  font-size: 26px;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 18px;
+}
+
+/* TEXT */
+.why-card h5 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.why-card p {
+  font-size: 14.5px;
+  line-height: 1.7;
+  color: #555;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .section-title {
+    font-size: 28px;
+  }
+}
+/* ================= COLLEGE LIST ================= */
+.college-list-section {
+  padding: 90px 0;
+  background:
+    radial-gradient(circle at top left, #f3ecff, transparent 40%),
+    radial-gradient(circle at bottom right, #ffe9f2, transparent 40%),
+    #ffffff;
+}
+
+.section-subtitle {
+  font-size: 15px;
+  color: #666;
+  max-width: 520px;
+  margin: 10px auto 0;
+}
+
+/* FILTER BAR */
+.filter-bar {
+  background: #ffffff;
+  padding: 22px;
+  border-radius: 18px;
+  box-shadow: 0 20px 45px rgba(0,0,0,0.08);
+}
+
+.filter-input {
+  height: 48px;
+  border-radius: 12px;
+  font-size: 14px;
+}
+
+/* ================= COLLEGE CARD ================= */
+.college-card {
+  background: #ffffff;
+  border-radius: 20px;
+  overflow: hidden;
+  height: 100%;
+  box-shadow: 0 25px 60px rgba(0,0,0,0.08);
+  transition: all 0.4s ease;
+}
+
+.college-card:hover {
+  transform: translateY(-12px);
+  box-shadow: 0 35px 80px rgba(0,0,0,0.12);
+}
+
+/* IMAGE */
+.college-img {
+  position: relative;
+  overflow: hidden;
+}
+
+.college-img img {
+  width: 100%;
+  height: 190px;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.college-card:hover .college-img img {
+  transform: scale(1.08);
+}
+
+/* BADGE */
+.college-img .college-badge {
+  position: absolute;
+  top: 14px;
+  left: 14px;
+  background: #5a2dff;
+  color: #fff;
+  padding: 6px 14px;
+  font-size: 12px;
+  border-radius: 20px;
+  font-weight: 600;
+}
+
+/* CONTENT */
+.college-body {
+  padding: 22px;
+}
+
+.college-body h5 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.college-meta {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 5px;
+}
+
+.college-body a {
+  display: inline-block;
+  margin-top: 14px;
+  font-weight: 600;
+  color: #5a2dff;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .college-img img {
+    height: 170px;
+  }
+}
+/* ================= ADMISSION PROCESS ================= */
+.admission-process-section {
+  padding: 90px 0;
+  background:
+    radial-gradient(circle at top left, #f3ecff, transparent 40%),
+    radial-gradient(circle at bottom right, #ffe9f2, transparent 40%),
+    #f8f9ff;
+}
+
+/* PROCESS CARD */
+.process-card {
+  background: #ffffff;
+  border-radius: 20px;
+  padding: 35px 25px;
+  text-align: center;
+  height: 100%;
+  box-shadow: 0 25px 60px rgba(0,0,0,0.08);
+  transition: all 0.4s ease;
+}
+
+.process-card:hover {
+  transform: translateY(-12px);
+  box-shadow: 0 35px 80px rgba(0,0,0,0.12);
+}
+
+/* IMAGE */
+.process-card img {
+  width: 70px;
+  height: 70px;
+  margin-bottom: 18px;
+}
+
+/* TEXT */
+.process-card h5 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.process-card p {
+  font-size: 14.5px;
+  color: #555;
+  line-height: 1.6;
+}
+.process-icon {
+  width: 70px;
+  height: 70px;
+  background: #0d6efd;
+  color: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 32px;
+  margin: 0 auto 15px;
+}
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .process-card {
+    padding: 30px 20px;
+  }
+}
+/* ================= CTA SECTION ================= */
+.cta-section {
+  position: relative;
+  padding: 80px 0;
+  background:
+    linear-gradient(
+      135deg,
+      rgba(58, 27, 179, 0.95),
+      rgba(90, 45, 255, 0.95)
+    ),
+    url("../images/cta/cta-bg.jpg") center/cover no-repeat;
+  overflow: hidden;
+}
+
+.cta-overlay {
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(
+    circle at top right,
+    rgba(255,255,255,0.15),
+    transparent 40%
+  );
+}
+
+.cta-section .container {
+  position: relative;
+  z-index: 2;
+}
+
+.cta-text h3 {
+  font-size: 34px;
+  font-weight: 800;
+  margin-bottom: 12px;
+}
+
+.cta-text p {
+  font-size: 16px;
+  opacity: 0.95;
+  max-width: 520px;
+}
+
+/* ===== FULL IMAGE WITH HALF CURVE ===== */
+.cta-image-wrapper {
+  height: 100%;
+  min-height: 360px;
+  overflow: hidden;
+  border-top-left-radius: 180px;
+  border-bottom-left-radius: 180px;
+}
+
+.cta-image-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .cta-section {
+    text-align: center;
+    padding: 60px 0;
+  }
+
+  .cta-text h3 {
+    font-size: 26px;
+  }
+}
+
+

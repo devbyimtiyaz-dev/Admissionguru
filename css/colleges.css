@@ -1,0 +1,215 @@
+/* ================= HERO ================= */
+.college-hero {
+  position: relative;
+  padding: 90px 0;
+  background:
+    linear-gradient(135deg, rgba(20,18,16,0.8), rgba(20,18,16,0.9)),
+    url("../images/header-img.png") center/cover no-repeat;
+  overflow: hidden;
+}
+
+.college-hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle at top left, rgba(255,255,255,0.15), transparent 40%);
+}
+
+.hero-badge {
+  display: inline-block;
+  background: rgba(255,255,255,0.15);
+  backdrop-filter: blur(6px);
+  padding: 6px 18px;
+  border-radius: 30px;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 14px;
+}
+
+.college-hero h1 {
+  font-size: 44px;
+  font-weight: 800;
+  line-height: 1.2;
+}
+
+.college-hero h1 span {
+  color: #ffc107;
+}
+
+.college-hero p {
+  font-size: 16px;
+  max-width: 540px;
+  opacity: 0.95;
+  margin: 16px 0 28px;
+}
+
+/* SEARCH */
+.hero-search {
+  background: #ffffff;
+  border-radius: 50px;
+  display: flex;
+  max-width: 520px;
+  overflow: hidden;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.25);
+}
+
+.hero-search input {
+  flex: 1;
+  border: none;
+  padding: 14px 22px;
+  font-size: 15px;
+  outline: none;
+}
+
+.hero-search button {
+  background: linear-gradient(135deg, #5a2dff, #7f53ff);
+  color: #fff;
+  border: none;
+  padding: 0 28px;
+  font-weight: 700;
+}
+
+.hero-search button:hover {
+  opacity: 0.9;
+}
+
+/* HERO IMAGE */
+.hero-img {
+  max-width: 100%;
+  animation: float 4s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%,100% { transform: translateY(0); }
+  50% { transform: translateY(-12px); }
+}
+
+/* ================= MAIN SECTION ================= */
+.college-main-section {
+  background:
+    radial-gradient(circle at top left, #f3ecff, transparent 40%),
+    radial-gradient(circle at bottom right, #ffe9f2, transparent 40%),
+    #ffffff;
+}
+
+.section-title {
+  font-size: 28px;
+  font-weight: 800;
+  color: #2a2a2a;
+}
+
+/* ================= FILTER CARD ================= */
+.filter-card {
+  background: #ffffff;
+  border-radius: 18px;
+  padding: 28px;
+  box-shadow: 0 25px 60px rgba(0,0,0,0.08);
+}
+
+.filter-label {
+  font-size: 13px;
+  font-weight: 600;
+  margin-bottom: 6px;
+  color: #555;
+}
+
+.form-select {
+  height: 48px;
+  border-radius: 12px;
+}
+
+.form-select:focus {
+  border-color: #5a2dff;
+  box-shadow: 0 0 0 0.15rem rgba(90,45,255,0.15);
+}
+
+.btn-reset {
+  background: transparent;
+  border: 1px solid #ddd;
+  padding: 8px 22px;
+  border-radius: 30px;
+  font-weight: 600;
+}
+
+/* ================= COLLEGE CARD ================= */
+.college-card {
+  background: #ffffff;
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: 0 20px 50px rgba(0,0,0,0.1);
+  transition: transform .3s, box-shadow .3s;
+  height: 100%;
+}
+
+.college-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 30px 70px rgba(0,0,0,0.15);
+}
+
+.college-img img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.college-badge {
+  position: absolute;
+  top: 14px;
+  left: 14px;
+  background: linear-gradient(135deg, #5a2dff, #7f53ff);
+  color: #fff;
+  font-size: 12px;
+  padding: 6px 14px;
+  border-radius: 30px;
+}
+
+.college-body {
+  padding: 20px;
+}
+
+.college-body h5 {
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.college-meta {
+  font-size: 14px;
+  color: #666;
+}
+
+.college-body a {
+  display: inline-block;
+  margin-top: 10px;
+  font-weight: 700;
+  color: #5a2dff;
+  text-decoration: none;
+}
+
+/* ================= LOAD MORE ================= */
+.btn-load-more {
+  background: linear-gradient(135deg, #5a2dff, #7f53ff);
+  color: #fff;
+  padding: 12px 36px;
+  font-weight: 700;
+  border-radius: 30px;
+  border: none;
+}
+
+.btn-load-more:hover {
+  opacity: 0.9;
+}
+
+/* ================= RESPONSIVE ================= */
+@media (max-width: 768px) {
+  .college-hero {
+    text-align: center;
+    padding: 70px 0;
+  }
+
+  .college-hero h1 {
+    font-size: 30px;
+  }
+
+  .hero-search {
+    margin: auto;
+  }
+}
