@@ -1,0 +1,353 @@
+{
+  "delhi": {
+    "city_name": "Delhi",
+    "intro": "Delhi is one of the top education hubs in India offering medical, dental, engineering and management colleges.",
+    "colleges": [
+      {
+        "name": "AIIMS Delhi",
+        "slug": "aiims-delhi",
+        "course": "MBBS",
+        "approval": "NMC / Government of India",
+        "location": "New Delhi",
+        "image": "/images/delhi/AIIMSDelhi.avif",
+        "detail_page": "/colleges/delhi/aiims-delhi.html"
+      },
+      {
+        "name": "Delhi Pharmaceutical Sciences University",
+        "slug": "dpsru",
+        "course": "B.Pharm / M.Pharm",
+        "approval": "UGC",
+        "location": "New Delhi",
+        "image": "/images/delhi/dpsru.png",
+        "detail_page": "/colleges/delhi/dpsru.html"
+      },
+      {
+        "name": "Jamia Hamdard University",
+        "slug": "jamia-hamdard",
+        "course": "Medical & Paramedical",
+        "approval": "UGC",
+        "location": "New Delhi",
+        "image": "/images/delhi/jamia-hamdard.avif",
+        "detail_page": "/colleges/delhi/jamia-hamdard.html"
+      }
+    ]
+  },
+
+  "bangalore": {
+    "city_name": "Bangalore",
+    "intro": "Bangalore is known for private medical colleges, engineering institutions and deemed universities.",
+    "colleges": [
+      {
+        "name": "MS Ramaiah Medical College",
+        "slug": "ms-ramaiah-medical-college",
+        "course": "MBBS",
+        "approval": "NMC",
+        "location": "Bangalore",
+        "image": "/images/bangalore/ms-ramaiah-medical-college.png",
+        "detail_page": "/colleges/bangalore/ms-ramaiah-medical-college.html"
+      },
+      {
+        "name": "St. John's Medical College",
+        "slug": "st-johns-medical-college",
+        "course": "MBBS",
+        "approval": "NMC",
+        "location": "Bangalore",
+        "image": "/images/bangalore/st-johns-medical-college.png",
+        "detail_page": "/colleges/bangalore/st-johns-medical-college.html"
+      },
+      {
+        "name": "Bangalore Medical College",
+        "slug": "bmcri",
+        "course": "MBBS",
+        "approval": "NMC",
+        "location": "Bangalore",
+        "image": "/images/bangalore/bmcri.jpg",
+        "detail_page": "/colleges/bangalore/bmcri.html"
+      },
+      {
+        "name": "Vydehi Institute of Medical Sciences",
+        "slug": "vydehi-medical",
+        "course": "MBBS",
+        "approval": "NMC",
+        "location": "Bangalore",
+        "image": "/images/bangalore/vydehi-medical.png",
+        "detail_page": "/colleges/bangalore/vydehi-medical.html"
+      },
+      {
+        "name": "Kempegowda Institute of Medical Sciences",
+        "slug": "kims-bangalore",
+        "course": "MBBS",
+        "approval": "NMC",
+        "location": "Bangalore",
+        "image": "/images/bangalore/kims-bangalore.png",
+        "detail_page": "/colleges/bangalore/kims.html"
+      },
+      {
+        "name": "Rajarajeswari Medical College",
+        "slug": "rrmc",
+        "course": "MBBS",
+        "approval": "NMC",
+        "location": "Bangalore",
+        "image": "/images/bangalore/rrmc.png",
+        "detail_page": "/colleges/bangalore/rrmc.html"
+      },
+      {
+        "name": "Sapthagiri Institute of Medical Sciences",
+        "slug": "sapthagiri-medical",
+        "course": "MBBS",
+        "approval": "NMC",
+        "location": "Bangalore",
+        "image": "/images/bangalore/sapthagiri-medical.jpg",
+        "detail_page": "/colleges/bangalore/sapthagiri.html"
+      },
+      {
+        "name": "MVJ Medical College",
+        "slug": "mvj-medical",
+        "course": "MBBS",
+        "approval": "NMC",
+        "location": "Bangalore",
+        "image": "/images/bangalore/mvj-medical.jpg",
+        "detail_page": "/colleges/bangalore/mvj-medical.html"
+      },
+
+      {
+        "name": "RV College of Engineering",
+        "slug": "rvce",
+        "course": "Engineering",
+        "approval": "AICTE",
+        "location": "Bangalore",
+        "image": "/images/bangalore/rvce.png",
+        "detail_page": "/colleges/bangalore/rvce.html"
+      },
+      {
+        "name": "BMS College of Engineering",
+        "slug": "bmsce",
+        "course": "Engineering",
+        "approval": "AICTE",
+        "location": "Bangalore",
+        "image": "/images/bangalore/bmsce.png",
+        "detail_page": "/colleges/bangalore/bmsce.html"
+      },
+      {
+        "name": "MS Ramaiah Institute of Technology",
+        "slug": "msrit",
+        "course": "Engineering",
+        "approval": "AICTE",
+        "location": "Bangalore",
+        "image": "/images/bangalore/msrit.png",
+        "detail_page": "/colleges/bangalore/msrit.html"
+      },
+      {
+        "name": "Dayananda Sagar College of Engineering",
+        "slug": "dsce",
+        "course": "Engineering",
+        "approval": "AICTE",
+        "location": "Bangalore",
+        "image": "/images/bangalore/dsce.png",
+        "detail_page": "/colleges/bangalore/dsce.html"
+      },
+      {
+        "name": "PES University",
+        "slug": "pes-university",
+        "course": "Engineering / Management",
+        "approval": "UGC",
+        "location": "Bangalore",
+        "image": "/images/bangalore/pes-university.png",
+        "detail_page": "/colleges/bangalore/pes-university.html"
+      },
+      {
+        "name": "Nitte Meenakshi Institute of Technology",
+        "slug": "nmit",
+        "course": "Engineering",
+        "approval": "AICTE",
+        "location": "Bangalore",
+        "image": "/images/bangalore/nmit.png",
+        "detail_page": "/colleges/bangalore/nmit.html"
+      },
+      {
+        "name": "RNS Institute of Technology",
+        "slug": "rnsit",
+        "course": "Engineering",
+        "approval": "AICTE",
+        "location": "Bangalore",
+        "image": "/images/bangalore/rnsit.jpg",
+        "detail_page": "/colleges/bangalore/rnsit.html"
+      },
+      {
+        "name": "Acharya Institute of Technology",
+        "slug": "acharya-it",
+        "course": "Engineering",
+        "approval": "AICTE",
+        "location": "Bangalore",
+        "image": "/images/bangalore/acharya-it.jpeg",
+        "detail_page": "/colleges/bangalore/acharya-it.html"
+      },
+      {
+        "name": "New Horizon College of Engineering",
+        "slug": "new-horizon",
+        "course": "Engineering",
+        "approval": "AICTE",
+        "location": "Bangalore",
+        "image": "/images/bangalore/new-horizon.png",
+        "detail_page": "/colleges/bangalore/new-horizon.html"
+      },
+      {
+        "name": "CMR Institute of Technology",
+        "slug": "cmrit",
+        "course": "Engineering",
+        "approval": "AICTE",
+        "location": "Bangalore",
+        "image": "/images/bangalore/cmrit.png",
+        "detail_page": "/colleges/bangalore/cmrit.html"
+      },
+      {
+        "name": "East West Institute of Technology",
+        "slug": "ewit",
+        "course": "Engineering",
+        "approval": "AICTE",
+        "location": "Bangalore",
+        "image": "/images/bangalore/ewit.webp",
+        "detail_page": "/colleges/bangalore/ewit.html"
+      },
+
+      {
+        "name": "Christ University",
+        "slug": "christ-university",
+        "course": "Engineering / Management / Arts",
+        "approval": "UGC",
+        "location": "Bangalore",
+        "image": "/images/bangalore/christ-university-bangalore.png",
+        "detail_page": "/colleges/bangalore/christ-university.html"
+      },
+      {
+        "name": "Jain University",
+        "slug": "jain-university",
+        "course": "Engineering / Management",
+        "approval": "UGC",
+        "location": "Bangalore",
+        "image": "/images/bangalore/jain-university.png",
+        "detail_page": "/colleges/bangalore/jain-university.html"
+      },
+      {
+        "name": "Alliance University",
+        "slug": "alliance-university",
+        "course": "Engineering / Management",
+        "approval": "UGC",
+        "location": "Bangalore",
+        "image": "/images/bangalore/alliance-university.png",
+        "detail_page": "/colleges/bangalore/alliance-university.html"
+      },
+      {
+        "name": "Presidency University",
+        "slug": "presidency-university",
+        "course": "Engineering / Management",
+        "approval": "UGC",
+        "location": "Bangalore",
+        "image": "/images/bangalore/presidency-university.png",
+        "detail_page": "/colleges/bangalore/presidency-university.html"
+      },
+      {
+        "name": "Reva University",
+        "slug": "reva-university",
+        "course": "Engineering / Management",
+        "approval": "UGC",
+        "location": "Bangalore",
+        "image": "/images/bangalore/reva-university.jpg",
+        "detail_page": "/colleges/bangalore/reva-university.html"
+      },
+      {
+        "name": "Garden City University",
+        "slug": "garden-city-university",
+        "course": "Engineering / Management",
+        "approval": "UGC",
+        "location": "Bangalore",
+        "image": "/images/bangalore/garden-city-university.jpg",
+        "detail_page": "/colleges/bangalore/garden-city-university.html"
+      },
+      {
+        "name": "CMR University",
+        "slug": "cmr-university",
+        "course": "Engineering / Management",
+        "approval": "UGC",
+        "location": "Bangalore",
+        "image": "/images/bangalore/cmr-university.png",
+        "detail_page": "/colleges/bangalore/cmr-university.html"
+      }
+    ]
+  },
+
+  "noida": {
+    "city_name": "Noida",
+    "intro": "Noida is a fast-growing education hub for engineering, management and professional courses.",
+    "colleges": [
+      {
+        "name": "Jaypee Institute of Information Technology",
+        "slug": "jiit-noida",
+        "course": "Engineering",
+        "approval": "UGC",
+        "location": "Noida",
+        "image": "/images/noida/jiit-noida.jpg",
+        "detail_page": "/colleges/noida/jiit-noida.html"
+      },
+      {
+        "name": "Amity University Noida",
+        "slug": "amity-noida",
+        "course": "Engineering / Management",
+        "approval": "UGC",
+        "location": "Noida",
+        "image": "/images/noida/amity-noida.webp",
+        "detail_page": "/colleges/noida/amity-noida.html"
+      }
+    ]
+  },
+
+  "pune": {
+    "city_name": "Pune",
+    "intro": "Pune is a major education hub for engineering, MBA and medical studies.",
+    "colleges": [
+      {
+        "name": "Bharati Vidyapeeth Medical College",
+        "slug": "bharati-vidyapeeth-medical",
+        "course": "MBBS",
+        "approval": "NMC",
+        "location": "Pune",
+        "image": "/images/pune/bharati-vidyapeeth-medical.png",
+        "detail_page": "/colleges/pune/bharati-vidyapeeth-medical.html"
+      },
+      {
+        "name": "Symbiosis International University",
+        "slug": "symbiosis-pune",
+        "course": "MBA / Management",
+        "approval": "UGC",
+        "location": "Pune",
+        "image": "/images/pune/symbiosis-pune.jpg",
+        "detail_page": "/colleges/pune/symbiosis-pune.html"
+      }
+    ]
+  },
+
+  "mumbai": {
+    "city_name": "Mumbai",
+    "intro": "Mumbai offers top colleges in medical, engineering and management streams.",
+    "colleges": [
+      {
+        "name": "Grant Medical College",
+        "slug": "grant-medical-college",
+        "course": "MBBS",
+        "approval": "NMC",
+        "location": "Mumbai",
+        "image": "/images/mumbai/grant-medical-college.webp",
+        "detail_page": "/colleges/mumbai/grant-medical-college.html"
+      },
+      {
+        "name": "NMIMS University",
+        "slug": "nmims-mumbai",
+        "course": "MBA / Management",
+        "approval": "UGC",
+        "location": "Mumbai",
+        "image": "/images/mumbai/nmims-mumbai.jpg",
+        "detail_page": "/colleges/mumbai/nmims-mumbai.html"
+      }
+    ]
+  }
+}
